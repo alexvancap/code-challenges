@@ -20,6 +20,5 @@
 //   // =>  WE ARE THE CHAMPIONS MY FRIEND
 
 function songDecoder(song){
-    song = song.replace(/WUB/g, ' ')
-    return song.replace(/\s+/g, ' ').trim()
+    return song.replace(/(WUB)+/g," ").trim()
 }
