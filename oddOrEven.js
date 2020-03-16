@@ -10,7 +10,5 @@
 // odd_or_even([0, -1, -5])  ==  "even"
 
 function oddOrEven(array) {
-    if(array.length == 0) return 'even'
-    let sum = array.reduce((sum, int) => sum += int)
-    return sum % 2 == 0 ? 'even' : 'odd'
+    return array.reduce((sum, int) => sum += int) % 2 == 0 ? 'even' : 'odd'
 }
