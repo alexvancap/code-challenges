@@ -7,5 +7,5 @@
 // For the beginner, try to use the map method - it comes in very handy quite a lot so is a good one to know.
 
 function maps(x){
-    return x.reduce((newArr, int) => newArr = [...newArr, int * 2] ,[])
+    return x.map(n => n * 2)
 }
