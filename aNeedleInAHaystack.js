@@ -9,6 +9,6 @@
 // findNeedle(['hay', 'junk', 'hay', 'hay', 'moreJunk', 'needle', 'randomJunk'])
 
 function findNeedle(haystack) {
-    let position = haystack.indexOf('needle') || 0
+    let position = haystack.indexOf('needle')
     return `found the needle at position ${position}`
 }
