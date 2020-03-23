@@ -10,10 +10,6 @@
 
 // You may consider that there will not be any empty arrays/vectors.
 
-const min = function(list){
-    return Math.min(...list);
-}
+const min = list => Math.min(...list)
 
-const max = function(list){ 
-    return Math.max(...list);
-}
+const max = list => Math.max(...list)
